@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tacoverflow</title>
+	<link rel="icon" type="image/png" href="./taco-icon.png">
+	<style>
+		html, body
+		{
+			/*font-family: 'lucida grande', tahoma, verdana, arial, sans-serif;*/
+			font-family: monospace;
+			color: #333;
+			font-size: 14px;
+		}
+		div
+		{
+			margin: 50px auto;
+			width: 734px;
+		}
+		pre
+		{
+			margin: 40px 0px 40px 135px;
+		}
+		
+	</style>
+</head>
+<body>
+<div>
+	<img src="./tacoverflow.png">
+	<pre>
+Uncaught Culinary Exception: Maximum taco capacity has been exceeded
+	at addHotSauce(tacoBuilder) in Taco.js line 401
+	at addTomatoes(tacoBuilder) in Taco.js line 347
+	at addCheese(tacoBuilder, "medium cheddar") in Taco.js line 277
+	at addLettuce(tacoBuilder) in Taco.js line 227
+	at addRice(tacoBuilder, "mexican rice") in Taco.js line 167
+	at addBeans(tacoBuilder, "pinto") in Taco.js line 109
+	at addMeat(tacoBuilder, "shredded beef") in Taco.js line 67
+	at acquireShell(tacoBuilder) in Taco.js line 23
+	at initiateTaco(true) in Stevvve.js line 89
+	</pre>
+</div>
+</body>
+</html>
